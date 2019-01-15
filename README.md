@@ -20,3 +20,4 @@ current dir structure:
   * ... rest of plugins
 * README.md or README.rst: this file
 * roles/: directory for ansible roles
+* tests/: tests for the collection's content
