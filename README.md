@@ -12,6 +12,7 @@ current dir structure:
 * license.txt: optional copy of license(s) for this collection
 * galaxy.yml: source data for the MANIFEST.json that will be part of the collection package
 * playbooks/: playbooks reside here
+	tasks/:	this holds 'task list files' for include_tasks/import_tasks usage
 * plugins/: all ansible plugins and modules go here, each in its own subdir
   * modules/: ansible modules
   * lookups/: lookup plugins
