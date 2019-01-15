@@ -16,6 +16,6 @@ current dir structure:
   * modules: ansible modules
   * lookups: lookup plugins
   * filters: Jinja2 filter plugins
-  ...
+  * ... rest of plugins
 * README.md or README.rst: this file
 * roles: directory for ansible roles
