@@ -10,3 +10,4 @@ Collection template
   ...
 * playbooks: playbooks reside here
 * galaxy.yml: source data for the MANIFEST.json that will be part of the collection package
+* docs: local documentation for the collection
