@@ -13,8 +13,6 @@ authors:
 description:
 # a valid SPDX license identifier https://spdx.org/licenses/
 license:
-# points to readme file
-readme:
 # list of keywords you want to associate the collection with for indexing/search systems
 tags:
 # list of dependencies, other collections this collection requires to be installed for it to be usable
