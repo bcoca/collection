@@ -1,0 +1,16 @@
+action_plugins
+cache_plugins
+callback_plugins
+connection_plugins
+shell_plugins
+shell_plugins
+lookup_plugins
+filter_plugins
+test_plugins'
+strategy_plugins
+terminal_plugins
+vars_plugins
+cliconf_plugins
+netconf_plugins
+inventory_plugins
+httpapi_plugins
