@@ -280,3 +280,20 @@ This works for roles or any type of plugin distributed:
 
          - debug:
              msg: '{{ lookup("myname.mycol.lookup1", 'param1')| myname.mycol.filter1 }}'
+
+
+To avoid a lot of typing, you can use the ``collections`` keyword added in Ansbile 2.8:
+
+
+.. code-block:: yaml
+
+     - hosts: all
+       collections:
+        - myname.mycol
+       tasks:
+         - include_role:
+             name: role1
+
+         - debug:
+             msg: '{{ lookup("lookup1", 'param1')|filter1 }}'
+
