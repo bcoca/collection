@@ -138,9 +138,9 @@ TBD. Expect tests for the collection itself, including Molecule files, to reside
 Creating Collections
 ====================
 
-Currently this is a work in progress, we created the ``mazer`` command line tool available at the `Ansible
-Mazer project <https://github.com/ansible/mazer>`_. as a proof of concept for packaging, distributing and installing collections.
-You can install via ``pip install mazer`` or checkout the code directly.
+Currently this is a work in progress, we created the `Mazer <https://galaxy.ansible.com/docs/mazer/index.html>`_ command line tool
+ available at the `Ansible Mazer project <https://github.com/ansible/mazer>`_. as a proof of concept for packaging,
+distributing and installing collections.  You can install via ``pip install mazer`` or checkout the code directly.
 
 .. Note::
     All the docs below that use ``mazer`` might be updated to use another tool in the future as it has served it's purpose and it won't be updated any further.
