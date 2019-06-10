@@ -96,7 +96,7 @@ Optional Fields:
 Docs
 -----
 
-TBD. Mostly we intend to keep documentation for the collection here.
+TBD. Intended to keep documentation for the collection here.
 
 Plugins
 -------
@@ -125,12 +125,12 @@ If a role name is encountered that does not match the above rules, the collectio
 Playbooks
 ---------
 
-TBD
+TBD.
 
 Tests
 -----
 
-TBD
+TBD. Expect tests for the collection itself, including Molecule files, to reside here.
 
 
 .. _creating_collections:
