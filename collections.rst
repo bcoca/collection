@@ -98,6 +98,13 @@ Docs
 
 TBD. Intended to keep documentation for the collection here.
 
+Updateing `ansible-doc <https://github.com/ansible/ansible/pull/57764>`_ to allow showing docs for plugins inside a collection::
+
+    ansible-doc -t lookup mycol.myname.lookup1
+
+It just requies FQCN to display specific plugins docs.
+
+
 Plugins
 -------
 
