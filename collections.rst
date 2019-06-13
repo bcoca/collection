@@ -123,6 +123,8 @@ The directory name of the role is used as the role name, so therefore the direct
 above rules or not be usable.
 If a role name is encountered that does not match the above rules, the collection import into Galaxy will fail.
 
+You can migrate 'traditional roles' into a collection but they must follow the rules above, they will need to be renamed if they don't conform and any plugins will have to be moved or linked into the collection specific directories.
+
 .. note::
 
     For roles imported into Galaxy directly from a GitHub repository, setting the ``role_name`` value in the role's
@@ -304,3 +306,4 @@ To avoid a lot of typing, you can use the ``collections`` keyword added in Ansbi
          - debug:
              msg: '{{ lookup("lookup1", 'param1')|filter1 }}'
 
+This keyword creates a 'search path' for non namespaced plugin refreences, it does not import roles or anything else.
