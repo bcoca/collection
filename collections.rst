@@ -244,7 +244,7 @@ There are several ways, the most common will be:
 
 .. code-block:: bash
 
-   #> mazer install  mycollection
+   #> ansible-galaxy collection install  mycollection -p /path
 
 assuming the collection is hosted in Galaxy.
 
@@ -252,8 +252,10 @@ You can also use a tarball resulting from your build:
 
 .. code-block:: bash
 
-   #> mazer install  mynamespace.mycollection.0.1.0.tgz
+   #> ansible-galaxy install  mynamespace.mycollection.0.1.0.tgz -p /path
 
+
+As a path you should use one of the values configured in `COLLECTINS_PATHS <https://docs.ansible.com/ansible/latest/reference_appendices/config.html#collections-paths>`_. This is also where Ansible itself will expect to find them when attempting to use a collection.
 
 You can also keep a collection adjacent to the current playbook, under a `collections/ansible_collection/` directory structure.
 
@@ -264,6 +266,8 @@ You can also keep a collection adjacent to the current playbook, under a `collec
     │   └── ansbile_collection/
     │               └── myname/
     │                   └── mycol/< collection structure lives here>
+
+
 
 
 Using Collections
