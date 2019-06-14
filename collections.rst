@@ -96,7 +96,7 @@ Optional Fields:
 Docs
 -----
 
-TBD. Intended to keep documentation for the collection here.
+Intended to keep general documentation for the collection here. Plugins and modules will still keep their specific documentaiton embeded, but here you can list the roles/plugins the colleciton provides, role requirements, user guides, etc. Currently we are looking at Markdown and the standard format for docs.
 
 Updateing `ansible-doc <https://github.com/ansible/ansible/pull/57764>`_ to allow showing docs for plugins inside a collection::
 
