@@ -7,7 +7,8 @@ name:
 version:
 # a list of the collection's content authors: 'Full Name <email> (http://site) @nicks:irc/im/site#channel'
 authors:
-
+# 'readme' is required by galaxy
+readme: README.md
 ### optional but strongly advised
 # short summary of the collection
 description:
@@ -27,3 +28,4 @@ documentation:
 homepage:
 # issue tracker url
 issues:
+
